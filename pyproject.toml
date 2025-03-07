@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "article"
+version = "0.1.0"
+description = ""
+authors = ["Marilius <Demon3643@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+networkx = "^3.3"
+metis = "^0.2a5"
+ipykernel = "^6.29.5"
+matplotlib = "^3.9.2"
+joblib = "^1.4.2"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
